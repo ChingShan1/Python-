@@ -29,4 +29,33 @@ temp.sort()
 print(temp)
 temp.reverse()
 print(temp)
-
+'''............cut..........'''
+#in和not in 來判斷某項目是否存在於陣列
+b=24
+print(b in temp)
+b=25
+print(b in temp)
+c=34
+print(c not in temp)
+c=24
+print(c not in temp)
+'''............cut..........'''
+#sum(list)，max(list),min(list)
+print(sum(temp))
+print(max(temp))
+print(min(temp))
+'''............cut..........'''
+#兩串列+(連結再一起)和*(複製多少個串列)
+temp2=[3,6,9]
+print(temp+temp2)
+print(temp*2)
+'''............cut..........'''
+#[] 和 [start:end]
+print(temp[-1])#印出最後一項
+print(temp[-2])#印出倒數第2項
+print(temp[0:3])
+'''............cut..........'''
+#for i in list
+for i in temp:
+	print(i,end ='--')
+	
